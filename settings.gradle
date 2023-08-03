@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Shimmer Effect"
 include ':demo'
-include ':mylibrary'
+
