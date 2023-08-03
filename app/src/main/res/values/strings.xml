@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shimmer Effect</string>
+    <string name="hello_shimmer">Hello, Shimmer!</string>
+    <string name="hello">Hello!</string>
+</resources>
