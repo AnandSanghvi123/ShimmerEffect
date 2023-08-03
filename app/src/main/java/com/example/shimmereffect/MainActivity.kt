@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.mylibrary.Demo
 import com.facebook.shimmer.ShimmerFrameLayout
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +25,8 @@ class MainActivity : AppCompatActivity() {
         shimmerLayout.startShimmer()
 
         loadData()
+
+            Demo.toastMessage(this,"Hello")
     }
 
     private fun loadData() {
@@ -35,6 +38,8 @@ class MainActivity : AppCompatActivity() {
         }, 3000)
 
     }
+
+
 
     override fun onDestroy() {
         super.onDestroy()
